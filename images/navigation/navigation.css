@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+/* to align items in center */
+.list1 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -5%;
+}
+
+
+/* nav class to give bg color */
+.one {
+  width: 500px;
+  background-color: lightpink;
+
+}
+
+
+/* to give gap in between items and add border on right */
+.nav-item {
+  border-right: 2px solid red;
+  margin: 7px;
+
+}
+
+/* to remove last border line from item4 */
+.nav-item:last-child {
+  border-right: 0;
+}
+
+
+.nav1-link {
+  display: block;
+  padding: 10px;
+  color: red;
+  
+}
+
+section{
+  background-color: rgb(210, 210, 210);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
