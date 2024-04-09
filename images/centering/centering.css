@@ -25,6 +25,13 @@ p {
   font-size: 1em;
 }
 
+.center-item {
+  padding: 25px;
+  flex: 0 1 65%;
+
+  border: 11px solid pink;
+}
+
 .center {
   display: flex;
   justify-content: center;
