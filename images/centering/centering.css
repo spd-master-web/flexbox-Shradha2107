@@ -65,3 +65,13 @@ p {
 .center-item{
   border: 5px solid pink;
 }
+
+/* centering4 */
+
+.column{
+ flex-direction: column;
+}
+
+.center-item{
+  border: 7px solid pink;
+}
