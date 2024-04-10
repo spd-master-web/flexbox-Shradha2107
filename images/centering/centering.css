@@ -37,3 +37,31 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+/* centering2 */
+
+.align-start{
+  align-self: flex-start;
+}
+
+.align-end{
+  align-self: flex-end;
+}
+
+.centering-container{
+  height: 500px;
+  border: 2px dashed;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/* centering3 */
+
+.align-stretch{
+  height: 500px;
+
+}
+
+.center-item{
+  border: 5px solid pink;
+}
