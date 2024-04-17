@@ -37,7 +37,7 @@ p {
 }
 
 
-/* layout1 */
+/* layout */
 
 
 
@@ -50,7 +50,9 @@ p {
 .stretch{
   
   height: 697px;
-  background-color: white;
+  /* background-color: white; */
+  margin-left: 2%;
+  margin-right: 2%;
  
 }
 
@@ -75,4 +77,13 @@ p {
 .flex{
   display: flex;
   align-content: center;
+}
+
+/* layout 1 */
+
+h4{
+  margin-top: 90%;
+  background-color: lightgray;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
